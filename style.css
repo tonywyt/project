@@ -1,0 +1,102 @@
+html{
+    background-color: antiquewhite;
+}
+.banner{ 
+    background-color: #F0EFAB;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gloria Hallelujah', cursive;
+    border:5px dashed orange;
+}
+
+
+.ball {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    justify-items: end;
+
+}
+
+.container{
+    background-color: antiquewhite;
+}
+.col1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.pika{
+    border: 3px dotted black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.a{
+    border: 3px dotted black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.col2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.together{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-left: 20px
+   
+}
+
+
+
+.big{
+    border: 10px dashed gold;
+    border-radius: 10px; 
+    margin: 50px 20px;
+
+}
+.together2{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+.col3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.moster {
+    border: 3px dotted black;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+
+}
+.kabe{
+    border: 3px dotted black;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left:100px;
+}
