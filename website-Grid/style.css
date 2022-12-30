@@ -1,0 +1,85 @@
+header{
+    background-image:url(image/Aomori.jpg);
+    background-repeat:no-repeat;
+    max-width: 100%;
+    height: 1200px;
+    opacity: 0.4;
+    background-size: cover;
+}
+
+.banner{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 15px 0px;
+    position: absolute;
+    width: 100%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 406px 406px 406px;
+    grid-auto-rows: minmax(100px,auto);
+    flex-wrap: wrap;
+    position:absolute;
+    top: 120px;
+    gap: 60px 80px;
+    justify-content: center;
+    margin: 40px 100px;
+}
+
+
+.Osaka{
+    border: 3px dashed black;
+    border-radius: 10px;
+    background-color: beige;
+    text-align: center;
+}
+
+.Towada{
+    border: 3px dashed black;
+    border-radius: 10px;
+    background-color: beige;
+    text-align: center;
+}
+
+.Tokyo{
+    border: 3px dashed black;
+    align-self: center;
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.Naruko-Gorge{
+    border: 3px dashed black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.Naruko-Gorge-description{
+    padding: 0px 10px;;
+}
+
+.Nyuto-onsenkyo{
+    border: 3px dashed black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.Nyuto-onsenkyo-description{
+    padding: 0px 10px;
+}
+
+.Aomori{
+    border: 3px dashed black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+    float: left;
+      width: 400px;}}
